@@ -10,7 +10,7 @@ class SearchBox extends Component {
     render() {
         return (
             <form onSubmit={this.onSubmit.bind(this)}>
-                <input type="text" placeholder="Enter an artist, song or genre to start playing" ref="searchInput" />
+                <input type="text" placeholder="Enter an artist, song or, genre to start playing" ref="searchInput" />
             </form>
         );
     }
